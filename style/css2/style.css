@@ -1,0 +1,166 @@
+@font-face {
+    font-family: SFP-regular;
+    src: url(../fonts/SF-Pro-Display-RegularItalic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: SFP-regular;
+    src: url(../fonts/SF-Pro-Display-Regular.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SFP-medium;
+    src: url(../fonts/SF-Pro-Display-MediumItalic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: SFP-medium;
+    src: url(../fonts/SF-Pro-Display-Medium.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SFP-semibold;
+    src: url(../fonts/SF-Pro-Display-SemiboldItalic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: SFP-semibold;
+    src: url(../fonts/SF-Pro-Display-Semibold.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SFP-light;
+    src: url(../fonts/SF-Pro-Display-LightItalic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: SFP-light;
+    src: url(../fonts/SF-Pro-Display-Light.otf);
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family: SFP-light;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.content-left {
+    width: 50%;
+    height: 100vh;
+    background-image: url(../style/img/Subtraction5.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 25%;
+}
+
+.content-left h3 {
+    margin: 25% 0 0 0;
+    font-size: 50px;
+    color: #442EB5;
+    text-align: center;
+}
+
+.content-right {
+    width: 50%;
+    position: relative;
+    background-image:url('../style/img/Subtraction7.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 65%;
+}
+
+.box-dang-nhap {
+    background-color: #ffffff;
+    padding: 10%;
+    padding-bottom: 14%;
+    margin: 0 auto;
+    width: 52%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 0px 136px -14px rgba(217, 217, 217, 1);
+    -moz-box-shadow: 0px 0px 136px -14px rgba(217, 217, 217, 1);
+    box-shadow: 0px 0px 136px -14px rgba(217, 217, 217, 1);
+}
+
+.box-dang-nhap h4 {
+    padding-bottom: 20%;
+    text-align: center;
+    color: #442EB5;
+    font-size: 33px;
+    font-family: SFP-regular;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.input {
+    display: grid;
+}
+
+.input-box {
+    padding-bottom: 4%;
+    display: inline-flex;
+    border-bottom: 2px solid #442EB5;
+    margin-bottom: 10%;
+}
+
+.email,
+.password {
+    margin-left: 4%;
+    width: 85%;
+    outline: none;
+    border: none;
+    border-left: 2px solid #442EB5;
+    padding-left: 4%;
+    height: 25px;
+    font-size: 19px;
+    font-family: SFP-light;
+    letter-spacing: 0.7px;
+}
+
+.input-box::placeholder {
+    font-size: 19px;
+    font-family: SFP-light;
+    letter-spacing: 0.7px;
+}
+
+.submit-button {
+    margin-top: 5%;
+    height: 120%;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-family: SFP-light;
+    letter-spacing: 0.7px;
+    background-color: #442EB5;
+    background-image: linear-gradient(to right, #442EB5, #6C18A4);
+}
+
+.icon {
+    width: 25px;
+}
