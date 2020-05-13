@@ -42,7 +42,7 @@ if (isset($_POST["btn_submit"])) {
         }
     }
 }
-?>
+?> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,19 +50,18 @@ if (isset($_POST["btn_submit"])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/css2/style.css">
+    <link rel="stylesheet" href="../style/css/login_style.css">
     <title>Đăng nhập Cổng phản ánh</title>
 </head>
 
 <body>
 <div class="content">
-    <div class="content-left"style="background-image: url("../style/img/Subtraction5.png");background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 25%;">
+    <div class="content-left">
         <h3>Cổng phản ánh</h3>
     </div>
     <div class="content-right">
-        <div class="box-dang-nhap">
+    <form action="dangnhap.php" method="POST">
+     <div class="box-dang-nhap">
             <h4>Đăng nhập</h4>
             <div class="input">
                 <div class="input-box">
@@ -77,6 +76,8 @@ if (isset($_POST["btn_submit"])) {
                 <input class="submit-button" type="submit" name="btn_submit" value="Đăng nhập">
             </div>
         </div>
+    </form>
+       
     </div>
 
 </div>

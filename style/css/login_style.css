@@ -70,7 +70,7 @@ body {
 .content-left {
     width: 50%;
     height: 100vh;
-    background-image: url(../style/img/Subtraction5.png);
+    background-image: url(../img/Subtraction5.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 25%;
@@ -86,7 +86,7 @@ body {
 .content-right {
     width: 50%;
     position: relative;
-    background-image:url('../style/img/Subtraction7.png');
+    background-image: url('../img/Subtraction7.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 65%;
